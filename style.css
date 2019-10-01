@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 750px;
+  height: 6802px;
+  position: relative;
+}
+
+header {
+  width: 750px;
+  background-image: url('images/bg-hero-mobile.svg');
+  background-color:#e3f7fe; /* Used if the image is unavailable */
+  height: 1435px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container*/
+  font-family: 'Poppins', sans-serif;
+}
+
+.header1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 750px;
+  height: 148px;
+  padding: 50px 35px;
+}
+
+.logo {
+  transform: scale(0.85);
+}
+
+.btn-Try {
+  width: 190px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.h1-Build {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 120px 120px 74px 120px;
+  line-height: 70px;
+  text-align: center;
+}
+
+.h2-Huddle {
+  font-size: 35px;
+  padding: 0 80px 70px 80px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.btn-Get {
+  margin: 0 136px 111px 136px;
+  width: 481px;
+  height: 81px;
+  border-radius: 40px;
+  border: none;
+  background-color: #fe52c0;
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.mockups {
+  width: 593px;
+  height: 419px;
+  display: block;
+  margin: auto;
+}
+
+main {
+  font-family: 'Open Sans', sans-serif;
+  width: 750px;
+  height: 3665px;
+  position: relative;
+}
+
+.forms-1 {
+  margin: 122px 40px 80px 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 672px;
+  height: 979px;
+}
+
+.img-form {
+  width: 468px;
+  height: 385px;
+  display: block;
+  margin: 100px auto 100px auto;
+  padding: 60px 50px 60px 50px;
+}
+
+.h3-Grow {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 70px;
+  text-align: center;
+  color: #00202a;
+}
+
+.Generate {
+  font-size: 25px;
+  padding: 60px 80px 70px 80px;
+  line-height: 40px;
+  text-align: center;
+  color: #89939c;
+  display: block;
+  margin: auto;
+}
+
+.form-last {
+  margin: 243px 35px 0 26px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 705px;
+  height: 353px;
+  position: absolute;
+  background-color: #fff;
+}
+
+.h1-Ready {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 104px 25px 50px 25px;
+  text-align: center;
+}
+
+.btn-Get-Started {
+  display: block;
+  margin: auto;
+  width: 401px;
+  height: 81px;
+  border-radius: 40px;
+  border: none;
+  background-color: #fe52c0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  width: 750px;
+  height: 1710px;
+  background-color: #00252e;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.logo-f {
+  margin: 280px 15px 62px 35px;
+  width: 64px;
+  height: 50px;
+}
+
+.Huddle-word {
+  color: #fffffd;
+  font-size: 70px;
+  font-weight: bold;
+  width: 643px;
+  height: 55px;
+  margin: 280px 15px 62px 0;
+}
+
+.logo-f-loc {
+  margin: 0 0 62px 35px;
+  width: 26px;
+  height: 36px;
+}
+
+.Huddle-word-loc {
+  color: #fffffd;
+  font-size: 40px;
+  width: 643px;
+  height: 55px;
+  margin: 0 15px 62px 50px;
+}
+
+.logo-f-ph {
+  margin: 100px 0 40px 35px;
+  width: 26px;
+  height: 36px;
+}
+
+.Huddle-word-ph {
+  color: #fffffd;
+  font-size: 40px;
+  width: 643px;
+  height: 55px;
+  margin: 100px 15px 40px 50px;
+}
+
+.logo-f-em {
+  margin: 0 0 62px 35px;
+  width: 26px;
+  height: 36px;
+}
+
+.Huddle-word-em {
+  color: #fffffd;
+  font-size: 40px;
+  width: 643px;
+  height: 55px;
+  margin: 0 15px 62px 50px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.Huddle-word-loccc {
+  color: #fffffd;
+  font-size: 20px;
+  width: 643px;
+  height: 55px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 20px;
+}
